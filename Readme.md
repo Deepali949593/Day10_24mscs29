@@ -39,12 +39,14 @@ This project is a backend system for elective course registration built using **
 
 git clone https://github.com/Deepali949593/Day10_24mscs29
 cd Elective-registration-Day10
+
 3️⃣ Update Email Credentials
 Edit EmailUtil.java:
 
 
 final String fromEmail = "your-email@gmail.com";
 final String appPassword = "your-app-password";  // Use App Password if 2FA enabled
+
 4️⃣ Run MongoDB and Insert Sample Courses
 Use MongoDB Compass or shell:
 
@@ -56,7 +58,9 @@ db.courses.insertMany([
   { _id: "C102", name: "Cloud Computing", availableSeats: 3 },
   { _id: "C103", name: "Cybersecurity", availableSeats: 4 }
 ])
+
 5️⃣ Run the Server
+
 
 Run Main.java
 6️⃣ Run Console-Based Client
