@@ -27,21 +27,6 @@ This project is a backend system for elective course registration built using **
 ✅ MongoDB Integration
 
 ---
-
-## 📂 Project Structure
-
-src/
-├── main/
-│ ├── java/org/example/
-│ │ ├── Main.java # Vert.x server with API routes
-│ │ ├── StudentHandler.java # Handles student registration, login, enrollment
-│ │ ├── CourseHandler.java # Returns available courses
-│ │ ├── EmailUtil.java # SMTP email sender
-│ │ ├── MongoDBUtil.java # MongoDB collection access
-│ │ └── ClientConsoleApp.java # Interactive console-based API tester
-
-## 🚀 How to Run
-
 ### 1️⃣ Prerequisites
 
 - Java 17+
@@ -52,7 +37,7 @@ src/
 ### 2️⃣ Clone the Repository
 
 
-git clone https://github.com/Praveena23-2003/Day10_24MCAB44.git
+git clone https://github.com/Deepali949593/Day10_24mscs29
 cd Elective-registration-Day10
 3️⃣ Update Email Credentials
 Edit EmailUtil.java:
